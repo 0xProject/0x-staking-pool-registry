@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "resolveJsonModule": true
+    },
+    "include": [
+        "./test/**/*",
+    ]
+}
