@@ -1,6 +1,6 @@
 # 0x Staking Pool Registry
 
-A collection of metadata about [0x](https://0xproject.com/) staking pools.
+A collection of metadata about [0x](https://0x.org/) staking pools.
 
 Addition to this repository is not a requirement to use the 0x Protocol. It's intended to make it easier for potential ZRX stakers to discover additional information about staking pools.
 
