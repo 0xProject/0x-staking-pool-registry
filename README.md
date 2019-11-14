@@ -17,7 +17,7 @@ Option B. Get the latest version by fetching it directly from this repo
 3.  Install [yarn](https://yarnpkg.com) and run `yarn install`
 4.  Generate a UUID for your relayer by running `yarn generate:uuid`.
 5.  Add an entry to `staking_pools.json` that complies with the staking pool JSON schema in [`schemas.ts`](./schemas.ts)
-6.  Run `yarn test` to verify that the updated `relayers.json` file passes schema validation.
+6.  Run `yarn test` to verify that the updated `staking_pools.json` file passes schema validation.
 7.  Submit PR for approval
 
 A sample submission:
