@@ -45,6 +45,7 @@ In staking_pools.json:
 
 ```
 
+In pool_metadata.json:
 ```json
 "149d3c10-d7a4-49e4-90f2-527fd4f727f1": {
     "name": "Test Pool",

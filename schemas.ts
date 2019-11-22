@@ -24,7 +24,7 @@ export const poolMetadataSchema = {
             type: 'string',
         },
     },
-    required: ['name'],
+    required: ['name', 'verified'],
 };
 
 export const poolsMetadataSchema = {

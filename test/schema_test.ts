@@ -80,6 +80,16 @@ describe('Staking Pool Metadata Schema', () => {
                     url: 'https://asamplewebsite.com',
                     logo: 'sample_fail.png',
                 },
+                'f964ed09-81c3-446a-bf47-6b3e1ff551cc': {
+                    name: 'a failing staking pool',
+                    url: 'https://asamplewebsite.com',
+                    logo: 'sample_fail.png',
+                },
+                'a1d617d7-465c-44c9-9908-4de6aabc8dd3': {
+                    name: 'failing staking pool',
+                    verified: true,
+                    website_url: 5,
+                },
             },
             poolMetadataSchema,
             true,
