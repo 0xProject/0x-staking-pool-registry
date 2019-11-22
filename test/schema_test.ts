@@ -5,32 +5,54 @@ import * as dirtyChai from 'dirty-chai';
 import { SchemaValidator } from '@0xproject/json-schemas';
 import 'mocha';
 
-import { stakingPoolSchema, stakingPoolsSchema } from '../schemas';
+import { poolMetadataSchema, poolsMetadataSchema } from '../schemas';
+import * as poolsMetadata from '../../pool_metadata.json';
 import * as stakingPools from '../../staking_pools.json';
 
 chai.config.includeStack = true;
 chai.use(dirtyChai);
 
+const SUPPORTED_CHAINS = ['1','3','4','42','1337'];
+
 const schemaValidator = new SchemaValidator();
-schemaValidator.addSchema(stakingPoolSchema);
-schemaValidator.addSchema(stakingPoolsSchema);
-const validateAgainstSchema = (stakingPools: { [uuid: string]: any }, schema: any, shouldFail = false) => {
-    _.each(stakingPools, (stakingPool, uuid) => {
+schemaValidator.addSchema(poolMetadataSchema);
+schemaValidator.addSchema(poolsMetadataSchema);
+const validateAgainstMetadataSchema = (metadata: { [uuid: string]: any }, schema: any, shouldFail = false) => {
+    _.each(metadata, (metadata, uuid) => {
         if (!isValidUUID(uuid)) {
             throw new Error('Make sure your UUID was generated using the `npm run generate:uuid` command');
         }
-        const validationResult = schemaValidator.validate(stakingPool, schema);
+        const validationResult = schemaValidator.validate(metadata, schema);
         const hasErrors = validationResult.errors.length !== 0;
         if (shouldFail && !hasErrors) {
-            throw new Error(`Expected testCase: ${JSON.stringify(stakingPool, null, '\t')} to fail and it didn't.`);
+            throw new Error(`Expected testCase: ${JSON.stringify(metadata, null, '\t')} to fail and it didn't.`);
         } else if (!shouldFail && hasErrors) {
             throw new Error(JSON.stringify(validationResult.errors, null, '\t'));
         }
     });
 };
-describe('Staking Pool Schema', () => {
+const validatePools = (chains: { [chainId: string]: { [ poolId: string ]: string } }) => {
+    _.each(chains, (pool, chainId) => {
+        if (!SUPPORTED_CHAINS.includes(chainId)) {
+            throw new Error('Unsupported chains in staking pools file');
+        }
+
+        _.each(pool, (pool, poolId) => {
+            if (!isValidUUID(pool)) {
+                throw new Error('Make sure your UUID was generated using the `npm run generate:uuid` command');
+            }
+
+            if (!Number.isInteger(Number(poolId))) {
+                throw new Error ('Invalid Pool ID');
+            }
+        });
+        
+    });
+};
+
+describe('Staking Pool Metadata Schema', () => {
     it('should validate valid Staking Pools', () => {
-        validateAgainstSchema(
+        validateAgainstMetadataSchema(
             {
                 '56b7d109-6982-472e-b272-501d4d690c71': {
                     name: 'Sample Staking Pool 1',
@@ -39,12 +61,6 @@ describe('Staking Pool Schema', () => {
                     website_url: 'https://asamplewebsite.com',
                     logo_img: 'staking_pool_1_logo.png',
                     location: 'somewhere',
-                    chains: [
-                        {
-                            chain_id: 1,
-                            pool_id: "1"
-                        },
-                    ],
                 },
                 'a1d617d7-465c-44c9-9908-4de6aabc8dd3': {
                     name: 'Sample Staking Pool 2',
@@ -52,43 +68,31 @@ describe('Staking Pool Schema', () => {
                     verified: true,
                     website_url: 'https://asamplewebsite2.com',
                     logo_img: 'staking_pool_2_logo.png',
-                    location: 'somewhere else',
-                    chains: [
-                        {
-                            chain_id: 1,
-                            pool_id: "2"
-                        },
-                    ],
                 },
             },
-            stakingPoolSchema,
+            poolMetadataSchema,
         );
     });
     it('should fail invalid Staking Pools', () => {
-        validateAgainstSchema(
+        validateAgainstMetadataSchema(
             {
                 '0964ed09-81c3-446a-bf47-6b3e1ff551cc': {
-                    name: 'Sample Failed Staking pool',
                     url: 'https://asamplewebsite.com',
                     logo: 'sample_fail.png',
-                },
-                'dd2d1b3f-e7a3-4751-8c7e-7274f1c5038f': {
-                    name: 'Sample Failed Staking Pool',
-                    url: 'https://asamplewebsite.com',
-                    logo: 'sample_fail.png',
-                    networks: [],
-                },
-                'f65ab054-8b33-4f22-a94c-55e5f8768b57': {
-                    name: 'Sample Failed Staking Pool',
                 },
             },
-            stakingPoolSchema,
+            poolMetadataSchema,
             true,
         );
     });
 });
+describe('Staking Pool Metadata', () => {
+    it('should only contain valid Staking Pool Metadata Entries', () => {
+        validateAgainstMetadataSchema(poolsMetadata, poolMetadataSchema);
+    });
+});
 describe('Staking Pool Registry', () => {
-    it('should only contain valid Staking Pools', () => {
-        validateAgainstSchema(stakingPools, stakingPoolSchema);
+    it('should only contain valid registry entries', () => {
+        validatePools(stakingPools);
     });
 });

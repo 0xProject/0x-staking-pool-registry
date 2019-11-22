@@ -1,6 +1,6 @@
   
-export const stakingPoolSchema = {
-    id: '/StakingPool',
+export const poolMetadataSchema = {
+    id: '/PoolMetadata',
     type: 'object',
     properties: {
         name: {
@@ -23,30 +23,15 @@ export const stakingPoolSchema = {
         location: {
             type: 'string',
         },
-        chains: {
-            type: 'array',
-            minItems: 1,
-            items: {
-                type: 'object',
-                properties: {
-                    chain_id: {
-                        type: 'integer',
-                    },
-                    pool_id: {
-                        type: 'string',
-                    },
-                },
-            },
-        },
     },
-    required: ['name', 'chains'],
+    required: ['name'],
 };
 
-export const stakingPoolsSchema = {
-    id: '/StakingPools',
-    title: 'Staking Pools',
+export const poolsMetadataSchema = {
+    id: '/PoolsMetadata',
+    title: 'Staking Pools Metadata',
     type: 'object',
     additionalProperties: {
-        $ref: '/StakingPool',
+        $ref: '/PoolMetadata',
     },
 };
