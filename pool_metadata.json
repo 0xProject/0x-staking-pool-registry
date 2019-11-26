@@ -1,6 +1,30 @@
 {
     "149d3c10-d7a4-49e4-90f2-527fd4f727f1": {
-        "name": "Test Pool",
+        "name": "Over 9000",
+        "bio": "All your stake are belong to us",
+        "verified": true,
+        "website_url": "http://0x.org",
+        "logo_img": "0x.png",
+        "location": "San Francisco, CA"
+    },
+    "d23840b9-ac34-40a8-a697-52c3fc9d6b1e": {
+        "name": "Will Warren's Magical Market Making Machine (MMM)",
+        "bio": "All your stake are belong to us",
+        "verified": true,
+        "website_url": "http://0x.org",
+        "logo_img": "0x.png",
+        "location": "San Francisco, CA"
+    },
+    "96470968-a1a9-4667-8b55-27d75ec084cf": {
+        "name": "Amir's Liquidity Floodgate",
+        "bio": "All your stake are belong to us",
+        "verified": true,
+        "website_url": "http://0x.org",
+        "logo_img": "0x.png",
+        "location": "San Francisco, CA"
+    },
+    "dfec6369-70b4-4e3f-a5a7-02a92df199ca": {
+        "name": "0x 4 lyfe",
         "bio": "All your stake are belong to us",
         "verified": true,
         "website_url": "http://0x.org",
