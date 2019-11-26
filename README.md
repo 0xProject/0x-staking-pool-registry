@@ -6,9 +6,19 @@ Addition to this repository is not a requirement to use the 0x Protocol. It's in
 
 ## Usage
 
-Option A. Clone this repo and import `staking_pools.json` into your own project or  
+Option A. Clone this repo and import `staking_pools.json` and `pool_metadata.json` into your own project or  
 Option B. Get the latest version by fetching it directly from this repo
 `$ curl -i -H "Accept: application/json" https://api.github.com/repos/0xProject/0x-staking-pool-registry/contents/staking_pools.json?client_id={CLIENT_ID}&client_secret={CLIENT_SECRET}`
+`$ curl -i -H "Accept: application/json" https://api.github.com/repos/0xProject/0x-staking-pool-registry/contents/pool_metadata.json?client_id={CLIENT_ID}&client_secret={CLIENT_SECRET}`
+
+To get metadata for a particular chain and pool ID (if it exists), you can do the following in Javascript. The example below grabs metadata for pool ID "1" on chain 42 (Kovan).
+
+```javascript
+metadata = require('./pool_metadata.json');
+pools = require('./staking_pools.json');
+
+data = metadata[pools[42][1]];
+```
 
 ## Submission Process
 
@@ -23,7 +33,7 @@ Option B. Get the latest version by fetching it directly from this repo
 
 A sample submission:
 
-In staking_pools.json:
+In `staking_pools.json`, add a mapping of your on-chain pool IDs to your generated UUID. The outermost numbers are chain IDs (1-mainnet ethereum, 3-Ropsten, etc.). In this example, "149d3c10-d7a4-49e4-90f2-527fd4f727f1" is pool 1 on all chains.
 ```json
 {
     "1": {
@@ -45,7 +55,7 @@ In staking_pools.json:
 
 ```
 
-In pool_metadata.json:
+In pool_metadata.json, add your generated UUID and metadata about your pool:
 ```json
 "149d3c10-d7a4-49e4-90f2-527fd4f727f1": {
     "name": "Test Pool",
