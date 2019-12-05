@@ -30,5 +30,13 @@
         "website_url": "http://0x.org",
         "logo_img": "0x.png",
         "location": "San Francisco, CA"
+    },
+    "77ef2d47-18b3-4b66-80a3-7b6892f10cf7": {
+        "name": "Zaidan's War Chest",
+        "bio": "Funding the alpha wars (circa 2019). The official Zaidan staking pool run by Paradigm Labs.",
+        "verified": true,
+        "website_url": "http://paradigm.market",
+        "logo_img": "zaidan.png",
+        "location": "Sol III"
     }
 }
