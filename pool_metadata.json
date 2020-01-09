@@ -38,5 +38,13 @@
         "website_url": "http://paradigm.market",
         "logo_img": "zaidan.png",
         "location": "Sol III"
+    }, 
+    "0b83bcc4-2208-48a6-bc25-03f6bc5e8e48": {
+        "name": "Veridex",
+        "bio": "Veridex, your open source dex. Costumize and build your dex with our dex wizard.",
+        "verified": true,
+        "website_url": "https://dex.verisafe.io",
+        "logo_img": "verisafe.png",
+        "location": "Brazil"
     }
 }
