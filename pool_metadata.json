@@ -46,5 +46,13 @@
         "website_url": "https://dex.verisafe.io",
         "logo_img": "veridex.png",
         "location": "Brazil"
+    },
+    "b8be1890-a6fc-4e79-bcf3-2bd85b0afdc9": {
+        "name": "Rigo ZRX Staker",
+        "bio": "Organizing the free flow of value.",
+        "verified": true,
+        "website_url": "https://rigo.network",
+        "logo_img": "rigo.png",
+        "location": "Switzerland"
     }
 }
