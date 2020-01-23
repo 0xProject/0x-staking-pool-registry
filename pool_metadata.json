@@ -54,5 +54,13 @@
         "website_url": "https://rigo.network",
         "logo_img": "rigo.png",
         "location": "Switzerland"
+    },
+    "0c9b41f7-8303-48a2-a35e-04e9f60c11dc": {
+        "name": "Prycto",
+        "bio": "Prycto provides unified digital asset trading infrastructure, enabling high velocity, efficient, and secure trading.",
+        "verified": true,
+        "website_url": "https://prycto.com/",
+        "logo_img": "prycto.png",
+        "location": "Here, now"
     }
 }
