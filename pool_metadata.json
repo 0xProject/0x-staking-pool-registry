@@ -62,5 +62,12 @@
         "website_url": "https://prycto.com/",
         "logo_img": "prycto.png",
         "location": "Here, now"
+    },
+    "1aff53df-b6d1-42b6-8a4b-99104e53fa76": {
+        "name": "DUST | pool",
+        "bio": "cryptographic",
+        "verified": true,
+        "logo_img": "dust.png",
+        "location": "Santa Monica, CA"
     }
 }
