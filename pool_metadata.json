@@ -32,8 +32,8 @@
         "location": "San Francisco, CA"
     },
     "77ef2d47-18b3-4b66-80a3-7b6892f10cf7": {
-        "name": "Zaidan's War Chest",
-        "bio": "Funding the alpha wars (circa 2019). The official Zaidan staking pool run by Paradigm Labs.",
+        "name": "[DEPRECATED] Zaidan's War Chest",
+        "bio": "The Zaidan's War Chest staking pool operated by Paradigm Labs will no longer collect any protocol fees.",
         "verified": true,
         "website_url": "http://paradigm.market",
         "logo_img": "zaidan.png",
