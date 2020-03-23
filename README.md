@@ -24,14 +24,14 @@ data = metadata[pools[42][1]];
 
 ## Submission Process
 
-1.  Fork this repository.
+1.  Clone this repository. Create a new branch called 'newpool/add_<your_pool_name>'.
 2.  Add your logo image in a web-safe format (GIF, JPEG, or PNG) to the `logos` folder.
 3.  Install [yarn](https://yarnpkg.com) and run `yarn install`
 4.  Generate a UUID for your relayer by running `yarn generate:uuid`.
 5.  Add an entry to `staking_pools.json` for each of your pools under the correct Chain ID. The outermost keys are Chain IDs, and the correct format for nested entries is "<pool ID>": uuid.
 6.  Add an entry to `pool_metadata.json` that complies with the metadata JSON schema in [`schemas.ts`](./schemas.ts)
 7.  Run `yarn test` to verify that your entries pass schema validation.
-8.  Submit PR for approval
+8.  Push your branch to the remote repo and submit a PR for approval.
 
 A sample submission:
 
