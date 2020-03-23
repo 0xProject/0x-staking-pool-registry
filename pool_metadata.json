@@ -69,5 +69,12 @@
         "verified": true,
         "logo_img": "dust.png",
         "location": "Santa Monica, CA"
+    },
+    "7530bb45-5109-4e25-a5c5-d89c2281cec7": {
+        "name": "High Stakes",
+        "bio": "The stakes have never been so high.",
+        "verified": true,
+        "logo_img": "highstakes.png",
+        "location": "United States"
     }
 }
