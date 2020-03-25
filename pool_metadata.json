@@ -68,13 +68,14 @@
         "bio": "cryptographic",
         "verified": true,
         "logo_img": "dust.png",
-        "location": "Santa Monica, CA"
+        "location": "Santa Monica, CA",
+        "website_url": "https://www.dustcryptographic.com/pool"
     },
     "7530bb45-5109-4e25-a5c5-d89c2281cec7": {
-        "name": "High Stakes",
+        "name": "VolleyFire",
         "bio": "The stakes have never been so high.",
         "verified": true,
-        "logo_img": "highstakes.png",
+        "logo_img": "volleyfire.png",
         "location": "United States"
     }
 }
