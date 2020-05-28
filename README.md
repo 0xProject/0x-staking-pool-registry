@@ -32,7 +32,7 @@ data = metadata[pools[42][1]];
 6.  Add an entry to `pool_metadata.json` that complies with the metadata JSON schema in [`schemas.ts`](./schemas.ts)
 7.  Run `yarn test` to verify that your entries pass schema validation.
 8.  Push your branch to the remote repo and open a PR.
-9.  Add a transaction hash to the PR description verifying your ownership of the operator address. This data field should have a hex-encoded message of the following format: `<Pool ID> belongs to <Github username>`. [MyEtherWallet](https://www.myetherwallet.com/interface/send-transaction) has an interface to do so.
+9.  Add a transaction hash to the PR description verifying your ownership of the operator address. The transaction sender should be your operator address and the data field should have a hex-encoded message of the following format: `Pool <Pool ID> belongs to <Github username>`. [MyEtherWallet](https://www.myetherwallet.com/interface/send-transaction) has an interface to do so.
 
 A sample submission:
 
