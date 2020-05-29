@@ -38,7 +38,7 @@
         "website_url": "http://paradigm.market",
         "logo_img": "zaidan.png",
         "location": "Sol III"
-    }, 
+    },
     "0b83bcc4-2208-48a6-bc25-03f6bc5e8e48": {
         "name": "Veridex",
         "bio": "Veridex, your open source dex. Costumize and build your dex with our dex wizard.",
@@ -77,5 +77,12 @@
         "verified": true,
         "logo_img": "volleyfire.png",
         "location": "United States"
+    },
+    "a0ee8bbf-25c3-47b6-b971-f9d2f2f8562f": {
+        "name": "Stake Capital | Stake DAO",
+        "bio": "Stake Capital is your partner to effortlessly and trustlessly participate in emerging digital economies. We provide financial instruments and services on top of the leading DeFi and staking networks.",
+        "verified": true,
+        "logo_img": "stakecapital.png",
+        "location": "Europe"
     }
 }
