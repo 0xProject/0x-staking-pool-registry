@@ -84,5 +84,13 @@
         "verified": true,
         "logo_img": "stakecapital.png",
         "location": "Europe"
-    }
+    },
+    "1214e519-cc29-45c0-a5b3-880b066ab2dc": {
+        "name": "Lark Trading",
+        "bio": "We are a trading firm specializing in the buying and selling of cyber coins.",
+        "verified": true,
+        "logo_img": "larktrading.png",
+        "location": "High Tech Virtual Trading Floor",
+        "website_url": "https://larktrading.github.io/"
+    },
 }
