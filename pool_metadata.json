@@ -1,4 +1,12 @@
 {
+    "6e1c2f5c-dd5b-4dea-b9c4-34c6127c6217": {
+        "name": "SHA-2048",
+        "bio": "I am SHA-2048, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "website_url": "https://gov.0x.org/u/sha-2048",
+        "logo_img": "https://cdn.discordapp.com/avatars/370116240515137536/5d15159bbc3a2923f79cfe0cd3791bcb.png?size=128",
+        "location": "Earth"
+    },
     "149d3c10-d7a4-49e4-90f2-527fd4f727f1": {
         "name": "Over 9000",
         "bio": "All your stake are belong to us",
