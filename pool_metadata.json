@@ -1,4 +1,11 @@
 {
+    "44dc12c9-93eb-45f1-8e20-4f578faf22b4" : {
+        "name": "Nikita",
+        "bio": "I am nikita, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "nikita.png",
+        "location": "Earth"
+    },
     "6e1c2f5c-dd5b-4dea-b9c4-34c6127c6217": {
         "name": "SHA-2048",
         "bio": "I am SHA-2048, a bootstrap delegator for the 0x Dao",
