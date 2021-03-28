@@ -1,4 +1,11 @@
 {
+    "179c93ef-6576-41c2-baef-2d63e01cba40": {
+        "name": "Metric Exchange",
+        "bio": "Community owned DEX aggregator at metric.exchange",
+        "verified": true,
+        "logo_img": "metric-exchange.png",
+        "location": "Everywhere"
+    },
     "6e1c2f5c-dd5b-4dea-b9c4-34c6127c6217": {
         "name": "SHA-2048",
         "bio": "I am SHA-2048, a bootstrap delegator for the 0x Dao",
