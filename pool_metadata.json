@@ -1,7 +1,28 @@
 {
+    "0c003912-fe72-418a-bb08-275c5080c2d1": {
+        "name": "SonofPegasus",
+        "bio": "I am SonofPegasus, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "sonofpegasus.png",
+        "location": "Earth"
+    },
+    "b306f82c-12d5-4642-96c2-5552f6a1ed49": {
+        "name": "Joao Campos",
+        "bio": "I am Joao Campos, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "joaocampos.png",
+        "location": "Earth"
+    },
+    "267da9a0-8ee9-41a0-bf5d-ffa3c1ba1cba" : {
+        "name": "Gab",
+        "bio": "I am Gab, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "gab.png",
+        "location": "Earth"
+    },
     "44dc12c9-93eb-45f1-8e20-4f578faf22b4" : {
         "name": "Nikita",
-        "bio": "I am nikita, a bootstrap delegator for the 0x Dao",
+        "bio": "I am Nikita, a bootstrap delegator for the 0x Dao",
         "verified": true,
         "logo_img": "nikita.png",
         "location": "Earth"
