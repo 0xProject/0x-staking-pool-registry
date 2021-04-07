@@ -1,4 +1,11 @@
 {
+    "9fb25658-eb17-4be5-864e-698c254ae360": {
+        "name": "DeFiSaver",
+        "bio": "We are DeFiSaver, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "defisaver.jpeg",
+        "location": "Earth"
+    },
     "0c003912-fe72-418a-bb08-275c5080c2d1": {
         "name": "SonofPegasus",
         "bio": "I am SonofPegasus, a bootstrap delegator for the 0x Dao",
