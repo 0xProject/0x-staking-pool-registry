@@ -1,4 +1,39 @@
 {
+    "9fb25658-eb17-4be5-864e-698c254ae360": {
+        "name": "DeFiSaver",
+        "bio": "We are DeFiSaver, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "defisaver.jpeg",
+        "location": "Earth"
+    },
+    "0c003912-fe72-418a-bb08-275c5080c2d1": {
+        "name": "SonofPegasus",
+        "bio": "I am SonofPegasus, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "sonofpegasus.png",
+        "location": "Earth"
+    },
+    "b306f82c-12d5-4642-96c2-5552f6a1ed49": {
+        "name": "Joao Campos",
+        "bio": "I am Joao Campos, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "joaocampos.png",
+        "location": "Earth"
+    },
+    "267da9a0-8ee9-41a0-bf5d-ffa3c1ba1cba" : {
+        "name": "Gab",
+        "bio": "I am Gab, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "gab.png",
+        "location": "Earth"
+    },
+    "44dc12c9-93eb-45f1-8e20-4f578faf22b4" : {
+        "name": "Nikita",
+        "bio": "I am Nikita, a bootstrap delegator for the 0x Dao",
+        "verified": true,
+        "logo_img": "nikita.png",
+        "location": "Earth"
+    },
     "179c93ef-6576-41c2-baef-2d63e01cba40": {
         "name": "Metric Exchange",
         "bio": "Community owned DEX aggregator at metric.exchange",
