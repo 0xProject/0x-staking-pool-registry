@@ -23,7 +23,7 @@
       "@types/uuid-validate": "^0.0.0",
       "chai": "^4.1.2",
       "dirty-chai": "^2.0.1",
-      "lodash": "^4.17.5",
+      "lodash": "^4.17.21",
       "mocha": "^5.0.4",
       "tslint": "5.8.0",
       "typescript": "3.7.2",
