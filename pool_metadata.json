@@ -1,4 +1,11 @@
 {
+    "a895c8f7-85d7-4171-a744-64999ce57c7c": {
+        "name": "Polygon Networks",
+        "bio": "I am Polygon Networks and I own Pool 58 on 0x.",
+        "verified": true,
+        "logo_img": "polygon.png",
+        "location": "Earth"
+    },
     "9fb25658-eb17-4be5-864e-698c254ae360": {
         "name": "DeFiSaver",
         "bio": "We are DeFiSaver, a bootstrap delegator for the 0x Dao",
