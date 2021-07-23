@@ -140,5 +140,13 @@
         "logo_img": "larktrading.png",
         "location": "High Tech Virtual Trading Floor",
         "website_url": "https://larktrading.github.io/"
+    },
+    "c60e1cfd-3772-4de5-8989-32d2e0335cd3": {
+        "name": "Thales Market",
+        "bio": "Decentralized binary options trading",
+        "verified": true,
+        "logo_img": "thales_logo.png",
+        "location": "N/A",
+        "website_url": "thales.market"
     }
 }
