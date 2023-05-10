@@ -148,5 +148,47 @@
         "logo_img": "thales_logo.png",
         "location": "N/A",
         "website_url": "https://thales.market/"
+    },
+    "d3f5466f-f808-4ac1-885e-fc981f1895b5": {
+        "name": "Aishwary",
+        "bio": "I am Aishwary, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
+    },
+    "5d28eb5e-ba3e-4de3-84c0-d4cee82544c7": {
+        "name": "GFX Labs",
+        "bio": "We are GFX Labs, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
+    },
+    "4e91734e-e205-4141-afba-055157aa5d72": {
+        "name": "Patrick B",
+        "bio": "I am Patrick B, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
+    },
+    "a9b5c287-9373-4619-a435-8a46ae206069": {
+        "name": "Koppany",
+        "bio": "I am Koppany, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
+    },
+    "5b605cf4-f758-43d5-81bf-64856d345e42": {
+        "name": "Flipside Crypto",
+        "bio": "We are Flipside Crypto, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
+    },
+    "8fa1c8f0-fe9b-4554-8d82-411f90a59bba": {
+        "name": "Celo Foundation",
+        "bio": "We are Celo Foundation, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
+    },
+    "c9b17f37-e31e-467c-94b9-5cb46489331e": {
+        "name": "Daniel",
+        "bio": "I am Daniel, a delegate for the 0x Dao",
+        "verified": true,
+        "location": "Earth"
     }
 }
